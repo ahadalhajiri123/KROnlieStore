@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:gravity="center"
+            android:text="Add new product here"
+            android:textColor="#F4511E"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_image_24" />
+
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/bg_border"
+            android:hint="Name"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtprice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5sp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/bg_border"
+            android:hint="price"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/bg_border"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtdescription"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/bg_border"
+            android:hint="About Product"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5sp"
+            android:hint="Cuurent date"
+            android:visibility="gone"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/btnProduct"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="6sp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/bg_card"
+            android:text="Upload"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

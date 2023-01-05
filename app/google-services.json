@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323121103384",
+    "firebase_url": "https://fyp-app-project-9e0c6-default-rtdb.firebaseio.com",
+    "project_id": "fyp-app-project-9e0c6",
+    "storage_bucket": "fyp-app-project-9e0c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323121103384:android:7a8c1708a9d2b1c161796d",
+        "android_client_info": {
+          "package_name": "com.unifiedtnc.belview_foods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323121103384-lhqa4njkr4fthij0vtn9ser3o12jocqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unifiedtnc.belview_foods",
+            "certificate_hash": "df2458716b44e3b5601e19659299d108d5c78425"
+          }
+        },
+        {
+          "client_id": "323121103384-dkn43qh1hf2f8of8qgapf6qo2mkdl2vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmoXpPmd9ZUBE6iAzrP0WEp5w75ZwWn_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323121103384-dkn43qh1hf2f8of8qgapf6qo2mkdl2vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

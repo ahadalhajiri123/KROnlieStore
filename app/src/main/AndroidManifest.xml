@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.unifiedtnc.belview_foods">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KROnlieStore">
+        <activity android:exported="true" android:name="com.unifiedtnc.belview_foods.AboutActivity"></activity>
+        <activity android:exported="true" android:name="com.unifiedtnc.belview_foods.MyProfileActivity" />
+        <activity android:exported="true" android:name="com.unifiedtnc.belview_foods.CategoryUpdateActivity" />
+        <activity android:exported="true" android:name="com.unifiedtnc.belview_foods.UpdatePassword" />
+        <activity android:name="com.unifiedtnc.belview_foods.CreateOrder" />
+        <activity android:name="com.unifiedtnc.belview_foods.Dashboard" />
+        <activity android:name="com.unifiedtnc.belview_foods.AddProductActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.ShowCategoryActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.AddCategory" />
+        <activity android:name="com.unifiedtnc.belview_foods.AdminLandingActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.OrderDetailList" />
+        <activity android:name="com.unifiedtnc.belview_foods.SignUpActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.ShowProductActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.AddCart" />
+        <activity android:name="com.unifiedtnc.belview_foods.ProductDetailActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.OrderDetailActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.UpdateProductActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.ShowCategory" />
+        <activity android:name="com.unifiedtnc.belview_foods.LoginActivity" />
+        <activity android:name="com.unifiedtnc.belview_foods.ProductListActivity" />
+        <activity android:exported="true" android:name="com.unifiedtnc.belview_foods.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.unifiedtnc.belview_foods.MainActivity" />
+    </application>
+
+</manifest>
